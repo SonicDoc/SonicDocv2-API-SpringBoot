@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: christian455
+    url: jdbc:sqlserver://localhost;databaseName=movilesdbv2
+  jpa:
+    hibernate:
+      ddl-auto: create
